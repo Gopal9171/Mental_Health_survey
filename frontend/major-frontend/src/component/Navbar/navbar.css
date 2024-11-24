@@ -1,0 +1,109 @@
+/* .navbar {
+    background-color: #4caf50;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline;
+  }
+   */
+   .navbar {
+    background-color: #4c7caf;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar-auth {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .auth-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .auth-button.sign-in {
+    background-color: white;
+    color: #4caf50;
+    border: 1px solid #4caf50;
+  }
+  
+  .auth-button.sign-in:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .auth-button.sign-up {
+    background-color: #ff5722;
+    color: white;
+    border: 1px solid #ff5722;
+  }
+  
+  .auth-button.sign-up:hover {
+    background-color: #e64a19;
+  }
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-links {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  
+    .navbar-auth {
+      margin-top: 1rem;
+    }
+  }
+  
+  
